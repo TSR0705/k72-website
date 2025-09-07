@@ -1,40 +1,8 @@
-# 🌐 K72 Website
+# React + Vite
 
-A modern and responsive website built for **K72**, designed with a clean UI, smooth user experience, and scalable frontend structure.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
-
-- ⚡ **Responsive Design** – Works seamlessly on desktop, tablet, and mobile.  
-- 🎨 **Tailwind CSS Styling** – Consistent theme and utility-first CSS.  
-- 📹 **Video Background Hero** – Engaging landing section with video background.  
-- 🧩 **Reusable Components** – Navbar, Footer, Hero, and other modular sections.  
-- 🌍 **Cross-Browser Compatibility** – Tested on major browsers.  
-- 📱 **Mobile-First Approach** – Optimized for small screens first.
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** React + Vite  
-- **Styling:** Tailwind CSS  
-- **Icons:** Lucide / Heroicons  
-- **Package Manager:** npm 
-
----
-
-## 📂 Project Structure
-
-```bash
-k72-website/
-│── src/
-│   ├── components/     # Reusable UI components
-│   │   └── home/       # Home page specific components
-│   ├── pages/          # Page components (Home, Projects, Agence)
-│   ├── index.css       # Global styles
-│   ├── main.jsx        # App entry point
-│── public/             # Static assets (images, videos)
-│── vite.config.js      # Vite configuration
-│── package.json        # Dependencies and scripts
-│── README.md           # Project documentation
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
