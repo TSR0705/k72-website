@@ -1,17 +1,40 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌐 K72 Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive website built for **K72**, designed with a clean UI, smooth user experience, and scalable frontend structure.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ **Responsive Design** – Works seamlessly on desktop, tablet, and mobile.  
+- 🎨 **Tailwind CSS Styling** – Consistent theme and utility-first CSS.  
+- 📹 **Video Background Hero** – Engaging landing section with video background.  
+- 🧩 **Reusable Components** – Navbar, Footer, Hero, and other modular sections.  
+- 🌍 **Cross-Browser Compatibility** – Tested on major browsers.  
+- 📱 **Mobile-First Approach** – Optimized for small screens first.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# k72-website
-A creative frontend clone of the award-winning k72.ca  website, built with React, TailwindCSS, and Framer Motion to practice advanced animations, typography, and smooth scrolling effects.
->>>>>>> b1215770e6f5fe8422e085f4227bd2a18d1a0413
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS  
+- **Icons:** Lucide / Heroicons  
+- **Package Manager:** npm 
+
+---
+
+## 📂 Project Structure
+
+```bash
+k72-website/
+│── src/
+│   ├── components/     # Reusable UI components
+│   │   └── home/       # Home page specific components
+│   ├── pages/          # Page components (Home, Projects, Agence)
+│   ├── index.css       # Global styles
+│   ├── main.jsx        # App entry point
+│── public/             # Static assets (images, videos)
+│── vite.config.js      # Vite configuration
+│── package.json        # Dependencies and scripts
+│── README.md           # Project documentation
