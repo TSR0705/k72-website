@@ -1,36 +1,42 @@
 @import "tailwindcss";
 
+/* Fonts */
 @font-face {
-    font-family: font1;
-    src: url(../public/fonts/Lausanne-300.woff2);
-}
-@font-face {
-    font-family: font2;
-    src: url(../public/fonts/Lausanne-500.woff2);
+    font-family: 'font1';
+    src: url('/fonts/Lausanne-300.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'font2';
+    src: url('/fonts/Lausanne-500.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
 
-.moveX{
+/* Animations */
+.moveX {
     animation-name: moveAnimation;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
-.moveLink{
+.moveLink {
     opacity: 0;
     transition: all ease 0.3s;
 }
 
-.link:hover .moveLink{
+.link:hover .moveLink {
     opacity: 1;
 }
 
 @keyframes moveAnimation {
-    from{
+    from {
         transform: translateX(0);
     }
-    to{
+    to {
         transform: translateX(-100%);
     }
 }
